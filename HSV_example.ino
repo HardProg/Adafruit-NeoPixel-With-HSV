@@ -4,7 +4,7 @@
 #define PIN 7
 #define LED_NUM 100
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_NUM, PIN, NEO_GRB + NEO_KHZ800); //Левая лента
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_NUM, PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
   strip.begin();
